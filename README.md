@@ -1,7 +1,7 @@
 async-light
 ===========
 
-provides standard series and parallel functionality with the addition that series allows passing variables from one function to another wihtout corruption global ws 
+provides standard series and parallel functionality with the addition that series allows passing variables from one function to another .. thus allowing cleaner global ws
 
 ### motivation
  a. working with medium sized app found that this is the only piece of functionality I wanted 
