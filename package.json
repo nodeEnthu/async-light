@@ -1,0 +1,32 @@
+{
+    "name": "async-light",
+    "version": "1.0.0",
+    "description": "Async series and parallel functionality",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec --timeout 60000 ./test/**/**.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nodeEnthu/async-light"
+    },
+    "keywords": [
+        "async",
+        "node",
+        "series",
+        "parallel"
+    ],
+    "dependencies": {
+        "grunt": "latest"
+    },
+    "devDependencies": {
+        "mocha": "latest",
+        "should": "latest"
+    },
+    "author": "Node Enthu <node.enthu@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nodeEnthu/async-light/issues"
+    },
+    "homepage": "https://github.com/nodeEnthu/async-light"
+}
